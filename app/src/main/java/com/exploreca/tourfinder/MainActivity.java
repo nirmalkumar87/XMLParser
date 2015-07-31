@@ -29,7 +29,7 @@ public class MainActivity extends ListActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
+
 		settings = PreferenceManager.getDefaultSharedPreferences(this);
 		
 		listener = new OnSharedPreferenceChangeListener() {
@@ -49,6 +49,8 @@ public class MainActivity extends ListActivity {
 		ArrayAdapter<Tour> adapter = new ArrayAdapter<Tour>(this, 
 				android.R.layout.simple_list_item_1, tours);
 		setListAdapter(adapter);
+
+        Tour test = new Tour();
 		
 	}
 
