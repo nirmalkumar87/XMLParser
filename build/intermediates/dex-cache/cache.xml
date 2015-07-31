@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/nirmal/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.3.1/ecb6e1f8e4b0e84c4b886c2f14a1500caf309757/gson-2.3.1.jar"
+        jumboMode="false"
+        revision="23.0.0 rc2"
+        sha1="ecb6e1f8e4b0e84c4b886c2f14a1500caf309757">
+        <dex dex="/Users/nirmal/Downloads/OoyalaSDK-Android/SampleApps/XMLJDOMParser/app/build/intermediates/pre-dexed/debug/gson-2.3.1-42b8ea61e0cd964a5446b50e880b74dbe03705b5.jar" />
+    </item>
+
+</items>
